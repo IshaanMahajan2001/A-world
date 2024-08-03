@@ -1,0 +1,373 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar-expand-xxl{
+        justify-content: space-between !important;
+    }
+    .container h1 {
+        font-size: 28px;
+    }
+    .banner-slider-section{
+        padding: 273px 0px;
+    }
+    
+    .banner_text{
+        width: 100%;
+    }
+    .btn-white{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .layout_padding{
+        padding-top: 30px;
+    }
+    .videosection {
+        top: 50% !important;
+        font-size: 92px;
+        margin: 0 auto;
+    }
+    .video-section-img{
+        width: 100%;
+        height: 400px; 
+        background-size: cover;
+        background-position: center;
+    }
+    .input_btn_main {
+        width: 100%;
+        display: inherit;
+        background-color: transparent !important;
+    }
+    .client_img{
+        padding: 35px;
+    }
+    .quick_icon{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .lorem_text{
+        padding: 10px;
+    }
+    .client_name{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .customer_text{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .subscribe_bt {
+        margin: 0 auto;
+        text-align: center;
+        width: 200px;
+        float: initial;
+    }
+    .subscribe_bt a {
+        width: 100%;
+        background-color: #ffffff;
+        margin-top: 50px;
+        border-radius: 40px;
+        margin-bottom: 50px;
+    }
+    .newsletter_box {
+        display: initial;
+    }
+    .btn-black{
+        margin: 0 auto;
+        margin-bottom:10px ;
+        margin-top: 10px;
+        
+    }
+    .let_text {
+        font-size: 28px;
+        text-align: center;
+    }
+    .btn-blue {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    } 
+    .play_icon img, svg{
+        width: 50%;
+      
+    }
+    .play_icon::before{
+        width: 70px;
+        height: 70px;
+        left: 35px;
+    }
+    .contact_taital {
+        font-size: 28px;
+    }
+    .email_text {
+        width: 100%;
+        padding-top: 90px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .navbar-expand-xxl{
+        justify-content: space-between!important;
+    }
+    .container h1 {
+        font-size: 28px;
+    }
+    .banner-slider-section{
+        padding: 273px 0px;
+    }
+    
+    .banner_text{
+        width: 100%;
+    }
+    .btn-white{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .layout_padding{
+        padding-top: 30px;
+    }
+    .videosection {
+        top: 50% !important;
+        font-size: 92px;
+        margin: 0 auto;
+    }
+    .video-section-img{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .input_btn_main {
+        width: 100%;
+        display: inherit;
+        background-color: transparent !important;
+    }
+    .client_img{
+        padding: 35px;
+    }
+    .quick_icon{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .lorem_text{
+        padding: 10px;
+    }
+    .client_name{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .customer_text{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .subscribe_bt {
+        margin: 0 auto;
+        text-align: center;
+        width: 200px;
+        float: initial;
+    }
+    .subscribe_bt a {
+        width: 100%;
+        background-color: #ffffff;
+        margin-top: 50px;
+        border-radius: 40px;
+        margin-bottom: 50px;
+    }
+    .newsletter_box {
+        display: initial;
+    }
+    .btn-black{
+        margin: 0 auto;
+        margin-bottom:10px ;
+        margin-top: 10px;
+        
+    }
+    .let_text {
+        font-size: 28px;
+        text-align: center;
+    }
+    .btn-blue {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .navbar-expand-xxl{
+        justify-content: space-between !important;
+    }
+    .container h1 {
+        font-size: 28px;
+    }
+    .banner-slider-section{
+        padding: 273px 0px;
+    }
+    
+    .banner_text{
+        width: 100%;
+    }
+    .btn-white{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .layout_padding{
+        padding-top: 30px;
+    }
+    .videosection {
+        top: 50% !important;
+        font-size: 92px;
+        margin: 0 auto;
+    }
+    .video-section-img{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .input_btn_main {
+        width: 100%;
+        display: inherit;
+        background-color: transparent !important;
+    }
+    .client_img{
+        padding: 35px;
+    }
+    .quick_icon{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .lorem_text{
+        padding: 10px;
+    }
+    .client_name{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .customer_text{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .subscribe_bt {
+        margin: 0 auto;
+        text-align: center;
+        width: 200px;
+        float: initial;
+    }
+    .subscribe_bt a {
+        width: 100%;
+        background-color: #ffffff;
+        margin-top: 50px;
+        border-radius: 40px;
+        margin-bottom: 50px;
+    }
+    .newsletter_box {
+        display: initial;
+    }
+    .btn-black{
+        margin: 0 auto;
+        margin-bottom:10px ;
+        margin-top: 10px;
+        
+    }
+    .let_text {
+        font-size: 28px;
+        text-align: center;
+    }
+    .btn-blue {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .navbar-expand-xxl{
+        justify-content: space-between !important;
+    }
+    .container h1 {
+        font-size: 28px;
+    }
+    .banner-slider-section{
+        padding: 273px 0px;
+    }
+    
+    .banner_text{
+        width: 100%;
+    }
+    .btn-white{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .layout_padding{
+        padding-top: 30px;
+    }
+    .videosection {
+        top: 50% !important;
+        font-size: 92px;
+        margin: 0 auto;
+    }
+    .video-section-img{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .input_btn_main {
+        width: 100%;
+        display: inherit;
+        background-color: transparent !important;
+    }
+    .client_img{
+        padding: 35px;
+    }
+    .quick_icon{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .lorem_text{
+        padding: 10px;
+    }
+    .client_name{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .customer_text{
+        padding: 0px;
+        padding-left: 35px;
+    }
+    .subscribe_bt {
+        margin: 0 auto;
+        text-align: center;
+        width: 200px;
+        float: initial;
+    }
+    .subscribe_bt a {
+        width: 100%;
+        background-color: #ffffff;
+        margin-top: 50px;
+        border-radius: 40px;
+        margin-bottom: 50px;
+    }
+    .newsletter_box {
+        display: initial;
+    }
+    .btn-black{
+        margin: 0 auto;
+        margin-bottom:10px ;
+        margin-top: 10px;
+        
+    }
+    .let_text {
+        font-size: 28px;
+        text-align: center;
+    }
+    .btn-blue {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .social_icon {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

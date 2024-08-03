@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul,li{
+    list-style: none;
+  }
+  
+  :root{
+    --bgWhite:#ffffff;
+    --bgblue:#2b2278;
+    --bglightpurple:#8781bd;
+    --bgdarkGreen:#122c2d;
+    --bgBlack:#000000;
+    --textWhite:#fafafa;
+    --textGrey:#757575;
+    --textBlue:#2b2278;
+  }
+  .btn-white{
+    width: 170px;
+    margin-top: 50px;
+    background-color: var(--bgWhite);
+    color: black;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    text-align: center;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.5s;
+    font-size: 1rem;
+  }
+  .btn-white:hover{
+    background-color: var(--bgblue);
+    color:var(--textWhite);
+  }
+  .btn-black{
+    margin-top: 50px;
+    background-color: var(--bgBlack);
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.5s;
+    font-size: 1rem;
+  }
+  .btn-black:hover{
+    background-color: var(--bgblue);
+    color:var(--textWhite);
+  }
+  .btn-blue{
+    width: 170px;
+    background-color:var(--bgblue);
+    color:var(--textWhite);
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    text-align: center;
+    border: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    font-size: 1rem;
+  }
+  .btn-blue:hover{
+    background-color: var(--bgBlack);
+    color:var(--textWhite);
+  }
+  
+  .layout_padding{
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+  /* ------------------------ */
+      /* start header css */
+  /* ------------------------ */
+  .navbar-toggler{
+    background-color: white !important;
+  }
+  #header {
+    background-image: url("../images/banner/banner-bg.png");
+    width: 100%;
+    height: auto; 
+  }
+  .navbar-expand-xxl{
+    justify-content: center !important;
+  }
+  .nav-item a:hover{
+    background-color:var(--bgblue);
+    color:var(--textWhite);
+    border-radius: 10px;
+    border: 0;
+    transition: all 0.5s;
+  }
+  .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  .banner_text{
+    width: 63%;
+  }
+  .carousel-indicators [data-bs-target]{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color: var(--bgblue) !important;
+  
+  }
+  .righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    font-style: normal;
+  }
+  /* ------------------------ */
+    /* end header css */
+  /* ------------------------ */
+
+  
+/* <!-- ====================== -->
+<!-- Start Video section  css -->
+<!-- ====================== --> */
+.videosection {
+    top: 26% !important;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.videosection h1{
+    font-weight: bolder;
+}
+.video-section-img{
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    background-position: center;
+}
+.play_icon {
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+
+.play_icon::before {
+    content: '';
+    position: absolute;
+    top: 49%;
+    left: 70px;
+    width: 130px;
+    height: 130px;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 100%;
+    z-index: -1;
+    animation: fadeEffect 1.3s infinite ease;
+    box-shadow: 0px 0px 10px 0px;
+    right: inherit;
+}
+
+@keyframes fadeEffect {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0;
+    }
+}
+
+
+/* <!-- ====================== -->
+<!-- End Video section  css -->
+<!-- ====================== --> */
+  
+/* <!-- ====================== -->
+<!-- Start Footer section css -->
+<!-- ====================== --> */
+
+
+.footer_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/footer/footer-bg.png);
+    height: auto;
+    padding-top: 250px;
+    background-size: 100% 100%;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+  }
+  
+  .input_btn_main {
+    width: 50%;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 8px 0px;
+    margin: 0 auto;
+  }
+  
+  .mail_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #2b2c2c;
+    background-color: #ffffff;
+    height: auto;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 0px;
+  }
+  
+  .mail_text:focus{
+    border: 0 !important;
+    outline: none;
+  }
+  
+  input.mail_text{
+    border: 0px;
+  }
+  
+  .subscribe_bt a {
+    width: 170px;
+    float: left;
+    font-size: 18px;
+    color: #2b2278;
+    background-color: transparent;
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .social_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .social_icon ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .social_icon li {
+    float: left;
+    padding: 30px 5px;
+  }
+  
+  .location_main {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  .call_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 10px;
+  }
+  .call_text a {
+    color: #ffffff;
+  }
+  
+  /* <!-- ====================== -->
+  <!-- End Footer section css -->
+  <!-- ====================== --> */
+  
+  /* <!-- ====================== -->
+  <!-- Start Copyright section css -->
+  <!-- ====================== --> */
+  
+  .copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #122c2d;
+    height: auto;
+  }
+  
+  .copyright_text {
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 0px;
+  }
+  
+  .copyright_text a {
+    color: #ffffff;
+  }
+  
+  /* <!-- ====================== -->
+  <!-- End Copyright section css -->
+  <!-- ====================== --> */
